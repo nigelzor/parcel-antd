@@ -9,5 +9,19 @@
         "style": true
       }
     ]
-  ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+    [
+      "babel-plugin-import",
+      {
+        "libraryName": "not-antd",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+      ]
+    }
+  }
 }

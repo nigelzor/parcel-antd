@@ -15,7 +15,10 @@
     "@babel/preset-react": "^7.0.0",
     "@types/react": "^16.4.18",
     "@types/react-dom": "^16.0.9",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-plugin-import": "^1.11.0",
+    "jest": "^23.6.0",
     "less": "^2.7.3",
     "parcel-bundler": "^1.10.3"
   },
@@ -26,5 +29,10 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "typescript": "^3.1.6"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!antd/)"
+    ]
   }
 }
